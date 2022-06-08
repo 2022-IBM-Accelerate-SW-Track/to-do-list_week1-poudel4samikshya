@@ -17,7 +17,8 @@ const Todos = ({ todos }) => {
               {/* Remember, we set the local state of this todo item when the user submits the form in 
               AddTodo.js. All we need to do is return the todo list item */}
               <CardContent>
-                <span style={{ padding: "50px" }}>add todo content</span>
+                <span style={{ padding: "50px" }}>Go to department store</span>
+                <span style={{ padding: "50px" }}>Buy groceries</span>
               </CardContent>
             </Card>
           </Grid>
@@ -25,7 +26,7 @@ const Todos = ({ todos }) => {
       })
     ) : (
       <p>{/*Enter your message here if todo list is empty*/}</p>
-    );
+    );s
     // Lastly, return the todoList constant that we created above to show all of the items on the screen.
     return (
       <div className="todoCollection" style={{ padding: "10px" }}>
